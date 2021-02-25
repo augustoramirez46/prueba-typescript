@@ -1,0 +1,7 @@
+.DownloadItem {
+    border: 2px solid red;
+}
+
+.DownloadItem--deleted {
+    filter: grayscale(1);
+}
