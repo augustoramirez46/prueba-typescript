@@ -10,7 +10,7 @@ export const getImageSrcFromFileName = (filename: string = '') => {
             return `${baseExtensionsUrl}image.png`
         case 'html':
         case 'pdf':
-            return `${baseExtensionsUrl}doc.png`
+            return `${baseExtensionsUrl}pdf.png`
 
         default:
             return `${baseExtensionsUrl}default.png`
